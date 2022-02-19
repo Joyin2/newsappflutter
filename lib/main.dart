@@ -2,11 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mononews_app/common/theme.dart';
-import 'package:mononews_app/common/utils.dart';
-import 'package:mononews_app/presentation/pages/article_category_page.dart';
-import 'package:mononews_app/presentation/pages/detail_page.dart';
-import 'package:mononews_app/presentation/pages/splash_page.dart';
+import 'package:dailynews_app/common/theme.dart';
+import 'package:dailynews_app/common/utils.dart';
+import 'package:dailynews_app/presentation/pages/article_category_page.dart';
+import 'package:dailynews_app/presentation/pages/detail_page.dart';
+import 'package:dailynews_app/presentation/pages/splash_page.dart';
 import 'package:provider/provider.dart';
 import 'common/http_ssl_pinning.dart';
 import 'domain/entities/article.dart';
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-          title: 'MonowarNews',
+          title: 'Daily News',
           debugShowCheckedModeBanner: false,
           theme: ThemeData.light().copyWith(
               primaryColor: kWhiteColor,

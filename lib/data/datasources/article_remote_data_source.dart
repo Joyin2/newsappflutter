@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:mononews_app/common/config.dart';
-import 'package:mononews_app/data/models/article_model.dart';
-import 'package:mononews_app/data/models/article_response.dart';
-import 'package:mononews_app/common/exception.dart';
+import 'package:dailynews_app/common/config.dart';
+import 'package:dailynews_app/data/models/article_model.dart';
+import 'package:dailynews_app/data/models/article_response.dart';
+import 'package:dailynews_app/common/exception.dart';
 import 'package:http/http.dart' as http;
 
 abstract class ArticleRemoteDataSource {

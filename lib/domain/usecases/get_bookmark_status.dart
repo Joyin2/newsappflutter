@@ -1,4 +1,4 @@
-import 'package:mononews_app/domain/repositories/article_repository.dart';
+import 'package:dailynews_app/domain/repositories/article_repository.dart';
 
 class GetBookmarkStatus {
   final ArticleRepository repository;
