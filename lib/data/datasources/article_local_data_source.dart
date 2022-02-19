@@ -1,6 +1,6 @@
-import 'package:mononews_app/common/exception.dart';
-import 'package:mononews_app/data/datasources/db/database_helper.dart';
-import 'package:mononews_app/data/models/article_table.dart';
+import 'package:dailynews_app/common/exception.dart';
+import 'package:dailynews_app/data/datasources/db/database_helper.dart';
+import 'package:dailynews_app/data/models/article_table.dart';
 
 abstract class ArticleLocalDataSource {
   Future<String> insertBookmarkArticle(ArticleTable article);

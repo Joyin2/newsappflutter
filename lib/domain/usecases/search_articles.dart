@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:mononews_app/common/failure.dart';
-import 'package:mononews_app/domain/entities/articles.dart';
-import 'package:mononews_app/domain/repositories/article_repository.dart';
+import 'package:dailynews_app/common/failure.dart';
+import 'package:dailynews_app/domain/entities/articles.dart';
+import 'package:dailynews_app/domain/repositories/article_repository.dart';
 
 class SearchArticles {
   final ArticleRepository repository;

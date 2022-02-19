@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:mononews_app/data/models/article_model.dart';
-import 'package:mononews_app/domain/entities/article.dart';
+import 'package:dailynews_app/data/models/article_model.dart';
+import 'package:dailynews_app/domain/entities/article.dart';
 
 class ArticleTable extends Equatable {
   final String? author;
