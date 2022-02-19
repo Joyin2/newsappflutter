@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-          title: 'MonowarNews',
+          title: 'Daily News',
           debugShowCheckedModeBanner: false,
           theme: ThemeData.light().copyWith(
               primaryColor: kWhiteColor,
